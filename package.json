@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "Parse date string into valid Date() object or null",
   "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/micnews/date-parse.git"
@@ -12,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/micnews/date-parse/issues"
   },
-  "homepage": "https://github.com/micnews/date-parse"
+  "homepage": "https://github.com/micnews/date-parse",
+  "devDependencies": {
+    "tape": "^3.0.3"
+  }
 }
