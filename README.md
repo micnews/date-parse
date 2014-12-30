@@ -1,5 +1,9 @@
 ## SYNOPSIS
-Parse date string into valid Date() object or null
+Parse date string into valid Date() object or null. Never returns date object that is invalid and could throw like so:
+
+```js
+new Date('not a date').toISOString() // throws RangeError: Invalid time value
+```
 
 [![Build Status](https://travis-ci.org/micnews/date-parse.svg)](https://travis-ci.org/micnews/date-parse)
 
