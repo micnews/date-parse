@@ -1,6 +1,8 @@
 ## SYNOPSIS
 Parse date string into valid Date() object or null
 
+[![Build Status](https://travis-ci.org/micnews/date-parse.svg)](https://travis-ci.org/micnews/date-parse)
+
 ## USAGE
 
 ```js
