@@ -1,0 +1,16 @@
+{
+  "name": "date-parse",
+  "version": "0.1.0",
+  "description": "Parse date string into valid Date() object or null",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/micnews/date-parse.git"
+  },
+  "author": "Mic Network, Inc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/micnews/date-parse/issues"
+  },
+  "homepage": "https://github.com/micnews/date-parse"
+}
