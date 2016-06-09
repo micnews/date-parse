@@ -1,8 +1,4 @@
-module.exports = function(str) {
-  if (!str) {
-    return null;
-  }
-
-  var d = new Date(String(str));
+module.exports = function(val) {
+  var d = new Date(val);
   return isNaN(d.getTime()) ? null : d;
 };
