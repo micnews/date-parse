@@ -1,5 +1,5 @@
 ## SYNOPSIS
-Parse date string into valid Date() object or null. Never returns date object that is invalid and could throw like so:
+Parse date value into valid Date() object or null. Never returns date object that is invalid and could throw like so:
 
 ```js
 new Date('not a date').toISOString() // throws RangeError: Invalid time value
