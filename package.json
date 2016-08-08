@@ -1,6 +1,6 @@
 {
   "name": "date-parse",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Parse date value into valid Date() object or null",
   "main": "index.js",
   "scripts": {
