@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/micnews/date-parse",
   "devDependencies": {
-    "tape": "^3.0.3"
+    "tape": "^4.6.0"
   }
 }
